@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Quynh's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="./assets/stylesheets/home.css" />
+</head>
+
+<body>
+  <div class="loader">
+    <div class="image">
+      <img src="./assets/images/pre_Load/preload_2.png" />
+    </div>
+    <span></span>
+  </div>
+  <div class='body_container'>
+    <div class="navbar-container">
+      <header class="header">
+        <figure class="header__logo">
+          <a href="./home.html"><img class="header__logo__img" src="./assets/images/images_assets/logo.png" /></a>
+          <figcaption class="header__logo__title">
+            <h1>Portfolio</h1>
+          </figcaption>
+        </figure>
+
+        <button class="header__toggle" id="expandNavigation">
+          <img id="expandNavigationImage" class="header__toggle__img" src="./assets/images/images_assets/menu.png" />
+        </button>
+      </header>
+    </div>
+
+    <aside class="aside" id="aside">
+      <button id="asideClose" class="aside__close">
+        Close<img class="aside__close__img" src="./assets/images/images_assets/close.png" />
+      </button>
+      <ul class="aside__list">
+        <li class="aside__list__item aside__list__item--title">menu</li>
+        <li class="aside__list__item"><a href="#">Home</a></li>
+        <li class="aside__list__item">
+          <a href="#about_me">About</a>
+        </li>
+        <li class="aside__list__item">
+          <a href="#artwork_container">Artwork</a>
+        </li>
+        <li class="aside__list__item">
+          <a href="#contact_me">Contact</a>
+        </li>
+      </ul>
+    </aside>
+
+    <div class='introduction_container'>
+      <div class='introduction_me_container float-left'>
+        <h4>Hi,</h4>
+        <h3 class="im_quynh">I'm Quynh</h3>
+        <div id="typed-strings">
+          <p>I am a 2D Illustrator and Graphic Design who is mainly doing freelancing for local T-shirt brands and draw
+            2D
+            images digitally in cartoon style.</p>
+        </div>
+        <span id="typed" class='semi description'></span>
+        <!-- <a href="./assets/images/images_assets/cv_Img.jpg"> -->
+        <button class="btn-getcv">Get CV</button>
+        </a>
+      </div>
+      <div class='introduction_img_container float-right'>
+        <img class='girl_bg' src="./assets/images/images_assets/girlbg_Home.png" />
+        <img class='quynh_bg' src="./assets/images/images_assets/myface_Img.jpg" />
+      </div>
+      <div class='clearfix'></div>
+    </div>
+    <div class='parallax-background'>
+      <div class='about_me_container' id="about_me">
+        <div class='title_container'>
+          <div class='vertical_line'></div>
+          <div class='title'>about me</div>
+        </div>
+        <div class='description'>My name is Nguyen Phan Mai Quynh. I was born on the 20th May 1999. I am currently
+          studying at RMIT South Saigon Campus and my major is Bachelor of Digital Media. Although English language was
+          my
+          main subject of study during childhood and highschool years, I've decided to pursue studying Design and
+          Illustration. Therefore, comparing to my peers in the creative industry, I am considered to be a potato.
+          However, I am still improving and trying my best to enhance my skills. Since I have lots of issues regarding
+          low
+          self-esteem and peer-pressure, I have tried a great number of solutions to face my problems and improve my
+          technical as well as my soft skills. For examples, I usually take online and extra art courses besides hours
+          studying at RMIT University. Hence, comparing to my past self, I have improved a lot. Although I have not
+          found
+          out my personal artstyle yet, I could use my drawing skills to make ends meet for myself. The road ahead is
+          still rough for me, but I will try my best.</div>
+        <div class='portfolio_container'>
+          <div class='title_portfolio'>artwork</div>
+          <div class='vertical_line'></div>
+        </div>
+      </div>
+      <div class='artwork_container_wrapper'>
+        <div class='artwork_container' id="artwork_container">
+          <div class='artwork_item_container float-left playful'>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/line_Art/sabertooth_Armor.jpg"
+              data-caption="This sabertooth tiger drawing piece was done during the course Design Sketching, at Artsoup, taught by Phuoc Quan, a famous artist graduating from Feng Zhu School of Design (FZD).">
+              <figure class="softeffect">
+                <img src="./assets/images/thumbNail_Img/sabertooth_thumbnail.png" />
+                <figcaption>
+                  <h4>Line Art</h4>
+                  <p> Here some of my line art illustration.
+                  </p>
+                </figcaption>
+              </figure>
+            </a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/line_Art/studyFrog_Img.jpg" data-caption="I've drawn the lineart of a frog using reference from a realistic photograph from the Facebook Page - Back to
+              Nature."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/line_Art/design_Issue.jpg"
+              data-caption="This is my line art for the magazine issue in the course Creative Thinking and Innovation."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/line_Art/cover_Pagebeta.jpg"
+              data-caption="This one is one of the alternate version of the cover page of my magazine."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/line_Art/pirate_Girl.jpg"
+              data-caption="This line art project of drawing the pirate captain girl was done during the course concept art when I studied with Huy Ozuno"></a>
+          </div>
+
+          <div class='artwork_item_container float-right playful'>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/character_Design/Anubis.jpg" data-caption="This one is the Anubis character that I drew in Adobe Photoshop using Intous wacom during the course
+              Character Concept Design at Artsoup, taught by Phuoc Quan, a famous artist graduating from Feng Zhu School
+              of Design (FZD).">
+              <figure class="softeffect">
+                <img src="./assets/images/thumbNail_Img/anubis_thumbnail.png" />
+                <figcaption>
+                  <h4>Character <br> Design</h4>
+                  <p>Some of my illustration for my OCs</p>
+                </figcaption>
+              </figure>
+            </a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/character_Design/peasant girl 02 (1).jpg"
+              data-caption="This is the digital illustration of a character during the course Illustration at Art Soup taught by the lecturer Do Thai Thanh, who is currently teaching at Van Lang University."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/character_Design/Logan.jpg"
+              data-caption="This digital illustration of the character Wolverine from Marvel Universe was a study painting following my lecturer original painting when I studied with the lecturer Chunli Thien Nguyen. The course name was Cartoon Q Style."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/character_Design/dareDevil.jpg"
+              data-caption="This poster was drawn and designed by me for the talkshow event for Personal Edge RMIT South Saigon Campus 2019."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/character_Design/sailorMeme.jpg"
+              data-caption="This image was made during the viral trend from Twitter and Facebook called #redrawsailormoon, it has helped me reach more than 1,700 reactions on Facebook."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/line_Art/pirate_Girl.jpg"
+              data-caption="This line art project of drawing the pirate captain girl was done during the course concept art when I studied with Huy Ozuno"></a>
+          </div>
+          <div class='clearfix'></div>
+
+          <div class='artwork_item_container float-left playful'>
+            <a data-fancybox="gallery" href="./assets/images/isometric/viking house and middle east temple.jpg"
+              data-caption="This drawing was influenced with Viking culture and lots of games such as Clash of Clan.">
+              <figure class="softeffect">
+                <img src="./assets/images/thumbNail_Img/isometric_thumbnail.png" />
+                <figcaption>
+                  <h4>Isometric Illustration</h4>
+                  <p>Some of my illustration in isometric style</p>
+                </figcaption>
+              </figure>
+            </a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/isometric_Illustration/isometric house.jpg"
+              data-caption="I've drawn this image during the course Illustration taught by the lecturer Do Thai Thanh, this house was covered in pink and warm color scheme for the most part."></a>
+            <a data-fancybox="gallery"
+              href="./assets/images/portfolio_Img/isometric_Illustration/warm analogous isometric room.jpg"
+              data-caption="This house was covered in pink and warm analogous color scheme for the most part."></a>
+            <a data-fancybox="gallery"
+              href="./assets/images/portfolio_Img/isometric_Illustration/cold analogous isometric room.jpg"
+              data-caption="This drawing for the isometric view inside a room was covered in cold analogous color scheme."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/isometric_Illustration/desert isometric.jpg"
+              data-caption="This drawing took lots of influnced from Disney films such as Tangled and Aladdin."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/isometric_Illustration/Ecolotus.jpg"
+              data-caption="This poster was for the course Creative Thinking and Innovation - back in the time when I studied in Design Studies."></a>
+          </div>
+
+          <div class='artwork_item_container float-right playful'>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/Illustration_Tart/room_Colored.jpg"
+              data-caption="This digital painting image is about creating cartoon rooms with chosen color palettes">
+              <figure class="softeffect">
+                <img src="./assets/images/thumbNail_Img/rooms_thumbnail.png" />
+                <figcaption>
+                  <h4>T-Art Workshop Illustration</h4>
+                  <p>My artwork collection of cartoon stylised illustrations.</p>
+                </figcaption>
+              </figure>
+            </a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/Illustration_Tart/objects_Shading.jpg"
+              data-caption="This image is for represent the use of shading and stylising cartoonish household objects."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/Illustration_Tart/home_Image.jpg"
+              data-caption="This is a house in cartoonish style that I drew using Wacom Intous Tablet."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/Illustration_Tart/countryside_Colored.jpg"
+              data-caption="This landscape is about a fantasy countryside filled with grass, pumpkins and sheeps."></a>
+
+          </div>
+          <div class='clearfix'></div>
+          <div class='artwork_item_container float-left playful'>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/game_Maps/building_yellow_road_winter.jpg"
+              data-caption="Winter version of the game map with golden color scheme road">
+              <figure class="softeffect">
+                <img src="./assets/images/thumbNail_Img/map_game_thumbnail.png" />
+                <figcaption>
+                  <h4>2D Game Mobile's Maps Project</h4>
+                  <p>My first game map in 2D cartoon mobile style</p>
+                </figcaption>
+              </figure>
+            </a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/game_Maps/building_cyan_road_winter.jpg"
+              data-caption="Winter version of the game map with cyan color scheme road."></a>
+            <a data-fancybox="gallery" href="./assets/images/portfolio_Img/game_Maps/building1_green.jpg"
+              data-caption="Forest or autumn version of the mobile game map"></a>
+          </div>
+
+          <div class='artwork_item_container float-right playful'>
+            <a data-fancybox="gallery"
+              href="./assets/images/portfolio_Img/models_In3DsMax/Final Poster_s3678914_NguyenPhanMaiQuynh.jpg"
+              data-caption=" The poster was designed in Adobe Photoshop after being rendered in 3DsMax.">
+              <figure class="softeffect">
+                <img src="./assets/images/thumbNail_Img/robot_thumbnail.png" />
+                <figcaption>
+                  <h4>3D Models</h4>
+                  <p>My first project in 3DsMax</p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class='clearfix'></div>
+          <a data-fancybox="gallery" href="./assets/images/portfolio_Img/models_In3DsMax/body.png"
+            data-caption="The body part after setting up the light and being rendered in Arnold light in 3DsMax."></a>
+          <a data-fancybox="gallery" href="./assets/images/portfolio_Img/models_In3DsMax/head.png"
+            data-caption="The head part after setting up the light and being rendered in Arnold light in 3DsMax."></a>
+          <a data-fancybox="gallery" href="./assets/images/portfolio_Img/models_In3DsMax/leg.png"
+            data-caption="The leg of the sabertooth part after setting up the light and being rendered in Arnold light in 3DsMax"></a>
+          <a data-fancybox="gallery" href="./assets/images/portfolio_Img/models_In3DsMax/rendersmallsize1.png"
+            data-caption="Both of the models after setting up the light and being rendered in Arnold light in 3DsMax"></a>
+          <a data-fancybox="gallery" href="./assets/images/portfolio_Img/models_In3DsMax/nonrendered(1).jpg"
+            data-caption="The two models before putting in the Arnold light environment and being rendered."></a>
+          <a data-fancybox="gallery" href="./assets/images/portfolio_Img/models_In3DsMax/nonrendered(2).jpg"
+            data-caption="4 main perspectives of my models in 3DsMax software."></a>
+        </div>
+      </div>
+      <div class='contact_form_container_wrapper' id="contact_me">
+        <div class='contact_form_container'>
+          <div class='contact_container'>
+            <div class='title_contact'>contact</div>
+            <div class='vertical_line'></div>
+          </div>
+          <form id="my-form" action="https://formspree.io/mnqgevyw" method="POST">
+            <div>
+              <div class='text'>Enter your name here*</div>
+              <input type="name" name="name" class='black_input_field' required />
+              <div class='text'>Enter your email here*</div>
+              <input type="email" name="email" class='black_input_field' required />
+              <div class='text'>Enter your phone here*</div>
+              <input type="phone" name="phone" class='black_input_field' required />
+              <div class='text'>Enter your message here*</div>
+              <textarea name="message" class='black_input_field text_input' rows="10" cols="30"></textarea>
+            </div>
+            <div class='float-right'>
+              <button id="my-form-button">Submit</button>
+            </div>
+            <div class='clearfix'></div>
+            <p id="my-form-status"></p>
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <footer class="footer">
+          <ul class="footer__right">
+            <li class="footer__right__icon">
+              <a href="https://www.instagram.com/vici_259/"><img src="./assets/images/images_assets/instagram.png"
+                  alt="Instagram" /></a>
+            </li>
+            <li class="footer__right__icon">
+              <a href="https://www.behance.net/maiquynh205199"><img src="./assets/images/images_assets/Background.png"
+                  alt="Behance" /></a>
+            </li>
+            <li class="footer__right__icon">
+              <a href="https://www.artstation.com/vici259"><img src="./assets/images/images_assets/artstation.png"
+                  alt="Artstation" /></a>
+            </li>
+          </ul>
+        </footer>
+        <div class="footer_text">
+          <h4 class="text_h4">All right reserved_Quynh Nguyen</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="./assets/javascripts/cmd.js"></script>
+<script src="./assets/javascripts/formspree.js"></script>
+<script src="./assets/javascripts/loader.js"></script>
+
+</html>
