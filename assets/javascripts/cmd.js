@@ -7,7 +7,7 @@
     $(window).on('scroll', function () {
         var scroll = $(document).scrollTop();
         $el.css({
-            'background-position': '5% ' + (-.1 * scroll) + 'px'
+            'background-position': '100% ' + (-.2 * scroll) + 'px'
         });
     });
 
@@ -15,7 +15,7 @@
     // https://github.com/mattboldt/typed.js/
     var typed = new Typed('#typed', {
         stringsElement: '#typed-strings',
-        typeSpeed: 30,
+        typeSpeed: 90,
         loop: true
     });
 

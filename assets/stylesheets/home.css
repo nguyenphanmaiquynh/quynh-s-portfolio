@@ -64,7 +64,7 @@
 /* //This is the ending point of the loader part// */
 
 .body_container {
-    display: none;
+    /* display: none; */
 }
 
 html {
@@ -123,7 +123,7 @@ body {
     padding: 0 0.2em;
 }
 
-.header__nav__item > a {
+.header__nav__item>a {
     padding: 0.2em 0.7em;
 
     border: solid 2px;
@@ -132,7 +132,7 @@ body {
     transition: all 0.3s;
 }
 
-.header__nav__item > a:hover {
+.header__nav__item>a:hover {
     background-color: lightgray;
     box-shadow: 0 0 0 0 gray;
 }
@@ -304,7 +304,7 @@ ul {
 /* <--this is the starting point of the parallax scrolling part */
 /* Reference link: //https://gist.github.com/omgmog/7198844 */
 .parallax-background {
-    background-image: url("../images/new_Demo4.png");
+    background-image: url('../images/new_Demo4.png');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -315,6 +315,7 @@ ul {
 }
 
 /* <--this is the end of the parallax scrolling part */
+
 
 /*<--start of the home part-->*/
 .introduction_container {
@@ -328,7 +329,6 @@ ul {
 
 .introduction_container .introduction_me_container {
     width: 50%;
-    min-height: 640px;
 }
 
 .introduction_container .introduction_me_container .typed-cursor {
@@ -337,12 +337,10 @@ ul {
 
 .introduction_container .introduction_img_container {
     width: 50%;
-    text-align: center;
-    min-height: 710px;
 }
 
 .introduction_container .introduction_img_container .girl_bg {
-    width: 540px;
+    width: 100%;
 }
 
 .introduction_container .introduction_img_container .quynh_bg {
@@ -397,6 +395,7 @@ ul {
 }
 
 /*<--end of the home part-->*/
+
 
 /*<--start of the about me part-->*/
 body {
@@ -454,6 +453,8 @@ body {
 
 /*<--end of the about me part-->*/
 
+
+
 /*<--start of the artwork part-->*/
 .artwork-container {
     flex-wrap: wrap;
@@ -502,7 +503,7 @@ body {
 }
 
 .artwork_container {
-    width: 95%;
+    width: 100%;
     margin: auto;
 }
 
@@ -527,7 +528,7 @@ body {
 }
 
 .playful figure figcaption,
-.playful figure figcaption > a {
+.playful figure figcaption>a {
     height: 100%;
     left: 0;
     position: absolute;
@@ -644,6 +645,9 @@ figure.softeffect:hover img {
 
 /*<--end of the artwork part-->*/
 
+
+
+
 /*<--start of the contact part-->*/
 .contact_form_container_wrapper {
     color: white;
@@ -704,4 +708,51 @@ figure.softeffect:hover img {
     font-weight: 300;
 }
 
-/*<--end of the contact part-->*/
+/* responsive */
+
+
+@media screen and (max-width: 1024px) {
+    .introduction_container {
+        padding: 85px 32px 32px 32px;
+  
+}
+
+@media screen and (max-width: 767px) {
+    .introduction_container {
+        flex-direction: column;
+    }
+
+    .introduction_container .introduction_me_container {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .introduction_container .introduction_img_container {
+        width: 100%;
+    }
+
+    .introduction_container .introduction_me_container h3.im_quynh {
+        font-size: 48px;
+    }
+
+    .introduction_container .introduction_me_container .semi {
+        max-width: 100%;
+    }
+
+    .contact_form_container_wrapper .contact_form_container {
+        width: 100%;
+        padding: 0 24px;
+    }
+
+    .contact_form_container_wrapper .contact_form_container .black_input_field {
+        width: 100%;
+    }
+
+    .about_me_container .description {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+/*<--end of the contact part-->*
