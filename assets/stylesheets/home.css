@@ -707,6 +707,9 @@ figure.softeffect:hover img {
     font-size: large;
     font-weight: 300;
 }
+.link-redirect {
+    color: #3f89ff !important;
+}
 
 /* responsive */
 
