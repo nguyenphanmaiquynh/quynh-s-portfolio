@@ -19,20 +19,20 @@
         loop: true
     });
 
-    // Image change on hover script
-    // https://api.jquery.com/mouseover/
-    $('h3.im_quynh').on('mouseenter', function (event) {
-        // https://api.jquery.com/hide/#hide
-        $('img.girl_bg').hide();
-        // https://api.jquery.com/show/#show
-        $('img.quynh_bg').show();
-    });
+    // // Image change on hover script
+    // // https://api.jquery.com/mouseover/
+    // $('h3.im_quynh').on('mouseenter', function (event) {
+    //     // https://api.jquery.com/hide/#hide
+    //     $('img.girl_bg').hide();
+    //     // https://api.jquery.com/show/#show
+    //     $('img.quynh_bg').show();
+    // });
 
-    // https://api.jquery.com/mouseleave/#mouseleave-handler
-    $('h3.im_quynh').on('mouseleave', function (event) {
-        $('img.girl_bg').show();
-        $('img.quynh_bg').hide();
-    });
+    // // https://api.jquery.com/mouseleave/#mouseleave-handler
+    // $('h3.im_quynh').on('mouseleave', function (event) {
+    //     $('img.girl_bg').show();
+    //     $('img.quynh_bg').hide();
+    // });
 
 
     // Burger menu script
